@@ -1,0 +1,119 @@
+<html>
+<header>
+	<meta charset="utf8">
+	<title>Cadastro</title>
+</header>
+<body bgcolor="Gainsboro">
+	<h1> Nova Conta</h1>
+	<form name="formulário">
+		Nome Completo
+			<input type="text" size="40"class="form-control nome completo-mask" placeholder="Ex.: Claudia Almeida" >
+		E-mail
+			<input type='text' size="25" class="form-control email-mask" placeholder="exemplo@exemplo.com.br">
+		<br><br>
+		CPF
+			<input type="text" class="form-control cpf-mask" placeholder="Ex.: 000.000.000-00">
+		Data de Nascimento
+			<input type="date"><br><br>
+		Telefone Fixo
+			<input type="text" class="form-control phone-ddd-mask" placeholder="Ex.: (00) 0000-0000">
+		Telefone Móvel
+			<input type="text" class="form-control cel-sp-mask" placeholder="Ex.: (00) 00000-0000">
+		<br><br>
+		Endereço
+			<input type="text" name="Nome" size="40">
+		Estado
+			<select> name=estado>
+				<option value=ac>AC</option>
+				<option value=al>AL</option>
+				<option value=ap>AP</option>
+				<option value=am>AM</option>
+				<option value=ba>BA</option>
+				<option value=ce>CE</option>
+				<option value=df selected>DF</option>
+				<option value=es>ES</option>
+				<option value=go>GO</option>
+				<option value=ma>MA</option>
+				<option value=mt>MT</option>
+				<option value=ms>MS</option>
+				<option value=pa>PA</option>
+				<option value=pb>PB</option>
+				<option value=pr>PR</option>
+				<option value=pe>PE</option>
+				<option value=pi>PI</option>
+				<option value=rj>RJ</option>
+				<option value=rn>RN</option>
+				<option value=rs>RS</option>
+				<option value=ro>RO</option>
+				<option value=rr>RR</option>
+				<option value=sc>SC</option>
+				<option value=se>SE</option>
+				<option value=to>TO</option>
+			</select>
+		País
+			<select> name=país>
+				<option value=alemanha>Alemanha</option>
+				<option value=austrália>Austrália</option>
+				<option value=brasil selected>Brasil</option>
+				<option value=chile>Chile</option>
+				<option value=costa rica>Costa Rica</option>
+				<option value=finlandia>Finlândia</option>
+				<option value=japão>Japão</option>
+			</select>	
+		<br><br>
+		CEP
+			<input type="text" class="form-control cep-mask" placeholder="Ex.: 00000-000"
+		<br><br><br>
+		Gênero
+			<input type=radio name=genero value=masculino>M
+			<input type=radio name=genero value=feminino>F
+		<br><br>
+		Escolaridade
+			<select> name=escolaridade>
+				<option value=fundamental>Fundamental</option>
+				<option value=médio>Médio</option>
+				<option value=superior(graduação)>Superior (Graduação)</option>
+				<option value=pós-graduação>Pós-graduação</option>
+				<option value=mestrado>Mestrado</option>
+				<option value=doutorado>Doutorado</option>
+			</select>	<br><br>
+		Áreas de Interesses<br><br>
+			<input type=checkbox name=administração>Administração
+			<input type=checkbox name=administração>Comercial 
+			<input type=checkbox name=administração>Customer Success<br><br>	
+			<input type=checkbox name=administração>Design e UX
+			<input type=checkbox name=administração>Finanças
+			<input type=checkbox name=administração>Jurídico<br><br>
+			<input type=checkbox name=administração>Logística
+			<input type=checkbox name=administração>Produção
+			<input type=checkbox name=administração>Produto<br><br>
+			<input type=checkbox name=administração>Outras	
+			<input type=checkbox name=administração>Recursos humanos
+			<input type=checkbox name=administração>Tecnologia
+			<br><br><br><br>
+		Observações :<br>
+			<textarea name="observaçõesy"  rows="10" cols="25" maxlength="500" >
+			
+			Digite aqui seu texto
+			</textarea>
+		<br><br>
+		Senha
+			<input type="password" name="senha" size="10" maxlength="7" value="1234567">
+		Confirmar Senha
+			<input type="password" name="senha" size="10" maxlength="7" value="123456">
+			
+			<br><br><br><br><br><br>
+			
+		<input type=reset name="Apagar">
+		<br><br><br>
+		<input type=submit name=enviar>
+		<br><br><br>
+
+
+
+
+
+		</form>
+
+</body>
+</html>
